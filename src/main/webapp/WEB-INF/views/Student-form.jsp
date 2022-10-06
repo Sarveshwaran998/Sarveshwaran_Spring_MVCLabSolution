@@ -14,10 +14,16 @@
 		<hr>
 			<form action="/studentmanagement/students/save" method="POST">
 			<input type="hidden" name="id" value="${Student.id}" />
-				<input type="text" name="name" placeholder="Student Name" value="${Student.name}" />
-				<input type="text" name="department" placeholder="Department" value="${Student.department}" />
-				<input type="text" name="country" placeholder="Country" value="${Student.country}" />
-				<button type="submit">Save Student</button>
+			<div class="form-inline">
+				<input type="text" name="name" placeholder="Student Name" value="${Student.name}" class="form-control mb-4 col-4" />
+			</div>
+			<div class="form-inline">
+				<input type="text" name="department" placeholder="Department" value="${Student.department}" class="form-control mb-4 col-4" />
+			</div>
+			<div class="form-inline">
+				<input type="text" name="country" placeholder="Country" value="${Student.country}" class="form-control mb-4 col-4" />
+			</div>
+				<button type="submit" class="btn btn-info col-2">Save Student</button>
 			</form>
 			<a href="/studentmanagement/students/list">Back to students list</a>
 	</div>
