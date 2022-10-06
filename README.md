@@ -9,11 +9,11 @@
 ![P2](https://user-images.githubusercontent.com/52794025/194422980-356fee91-e50e-4d5a-8fe4-1bbd9ad2a5bb.png)
 
 # 2).Insert new records into the table.
-![A1](https://user-images.githubusercontent.com/52794025/194422997-3f2be489-e96b-41d0-860f-9b97fec4501c.png)
+![A1](https://user-images.githubusercontent.com/52794025/194437851-a97e9919-ab50-4de2-afa3-0c148f637687.png)
 ![A2](https://user-images.githubusercontent.com/52794025/194423010-0909eeb0-0ff8-442f-a2d2-f192da5651b7.png)
 
 # 3).Update existing records into the table.
-![U1](https://user-images.githubusercontent.com/52794025/194423037-270a1418-4108-44c5-85d4-7af198c73977.png)
+![U1](https://user-images.githubusercontent.com/52794025/194437891-add3b972-ed44-43a1-a05a-4ed47839dd9a.png)
 ![U2](https://user-images.githubusercontent.com/52794025/194423042-bb601986-e51f-475b-83f4-a183035aebe6.png)
 
 # 4).Delete existing records from the table.
