@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="container">
-	<h3>Student Directory</h3>
+	<h3>Student Directory - Add/Update student</h3>
 		<hr>
 			<form action="/studentmanagement/students/save" method="POST">
 			<input type="hidden" name="id" value="${Student.id}" />

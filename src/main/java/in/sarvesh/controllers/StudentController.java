@@ -71,17 +71,17 @@ public class StudentController {
 
 		@PostMapping("/save")
 		public String saveBook(@RequestParam("id") int id, @RequestParam("name") String name,
-				@RequestParam("country") String country, @RequestParam("department") String department) {
+				@RequestParam("department") String department, @RequestParam("country") String country) {
 
 			System.out.println(id);
 			Student theStudent;
 			if (id != 0) {
 				theStudent = studentService.findById(id);
 				theStudent.setName(name);
-				theStudent.setCountry(country);
 				theStudent.setDepartment(department);
+				theStudent.setCountry(country);
 			} else
-				theStudent = new Student(name, country, department);
+				theStudent = new Student(name, department, country);
 			// save the Book
 			studentService.save(theStudent);
 
