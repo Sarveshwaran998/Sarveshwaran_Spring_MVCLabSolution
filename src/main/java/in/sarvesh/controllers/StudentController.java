@@ -31,7 +31,7 @@ public class StudentController {
 			// check names, if both are empty then just give list of all Books
 
 			if (name.trim().isEmpty() && department.trim().isEmpty()) {
-				return "redirect:/books/list";
+				return "redirect:/students/list";
 			} else {
 				// else, search by first name and last name
 				List<Student> theStudents = studentService.searchBy(name, department);
